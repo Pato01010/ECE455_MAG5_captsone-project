@@ -1,4 +1,4 @@
-# AfriCAN DETECT IT: Marine Proton-Precession Magnetometer Towfish
+# AfriCAN DETECT IT: Proton-Precession Magnetometer Towfish
 
 This project is a towed underwater magnetometer for marine magnetic surveying and object recovery. It's dragged behind a boat and maps small changes in Earth's magnetic field, the kind made by shipwrecks, debris, and other metal objects on or under the seafloor.
 
