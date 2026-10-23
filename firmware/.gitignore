@@ -1,0 +1,23 @@
+# Build outputs
+/build/
+*.o
+*.exe
+*.map
+
+# Host test programs and their generated data
+tests/shot/test_shot
+tests/fmt/test_fmt
+tests/app/test_app
+tests/noise/test_noise
+tests/gps/test_gps
+tests/fit/test_fit
+tests/*/out/
+
+# Shots saved by tools/mag.py
+/shots/
+__pycache__/
+
+# ST's documents (52 MB, all downloadable again: docs/README.md lists the sources). The README stays tracked.
+docs/**/*.pdf
+docs/**/*.chm
+docs/**/*.svd
