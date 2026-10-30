@@ -1,0 +1,7544 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "ad2bef85-0886-45b7-8eb6-634149eaa721")
+	(paper "A3")
+	(title_block
+		(title "Proton-Precession Magnetometer | Analog Front End")
+		(date "2026-10-16")
+		(rev "A")
+		(company "ECE 455")
+		(comment 1 "Design schematic | Hardware validation in progress | ECE 455")
+	)
+	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0 2 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "C"
+				(at 0 -2 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762)
+						(xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762)
+						(xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 270)
+					(length 3.048)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 3.048)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 2 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 -2 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Magnetometer:Conn_01x02"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -2 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Pin header"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 -2.54)
+					(end 1.27 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 1.27 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -1.27 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Magnetometer:Conn_01x03"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03"
+				(at 0 -2 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Pin header"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x03_1_1"
+				(rectangle
+					(start -1.27 -3.81)
+					(end 1.27 3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Magnetometer:OPA4227"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 2 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "OPA4227"
+				(at 0 -2 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Quad low-noise precision op amp, +/-5V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "OPA4227_1_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08)
+						(xy 5.08 0)
+						(xy -5.08 -5.08)
+						(xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "OPA4227_2_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08)
+						(xy 5.08 0)
+						(xy -5.08 -5.08)
+						(xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "OPA4227_3_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08)
+						(xy 5.08 0)
+						(xy -5.08 -5.08)
+						(xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "OPA4227_4_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08)
+						(xy 5.08 0)
+						(xy -5.08 -5.08)
+						(xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "OPA4227_5_1"
+				(rectangle
+					(start -3.81 -5.08)
+					(end 3.81 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Magnetometer:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 2 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 -2 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(polyline
+					(pts
+						(xy 0 0.762)
+						(xy 0.762 1.524)
+						(xy 0 2.286)
+						(xy -0.762 1.524)
+						(xy 0 0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 90)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:PWR_FLAG"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 2 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 -2 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power flag"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_1_1"
+				(polyline
+					(pts
+						(xy 0 0)
+						(xy 0 1.27)
+						(xy -1.016 1.905)
+						(xy 0 2.54)
+						(xy 1.016 1.905)
+						(xy 0 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "pwr"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "REFERENCE: U1D buffers nominal 1.65 V VMID; R9/C8 provide ADC input filtering."
+		(exclude_from_sim no)
+		(at 300 35 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "24ec5267-e310-4e58-b8bf-dc018b6cd3f8")
+	)
+	(text "LAYOUT: Keep supply decoupling close to U1 pins 4 (+5 V) and 11 (-5 V)."
+		(exclude_from_sim no)
+		(at 30 173 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "268f0f9b-873a-4b52-a0e7-da4866a9e8a2")
+	)
+	(text "INTERFACE: +3.3 V supplied externally; ADC_IN nominally centered at 1.65 V."
+		(exclude_from_sim no)
+		(at 240 173 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "2738806e-5047-4559-ab4f-cd1ba3e381f0")
+	)
+	(text "02 | BAND-PASS FILTER  -  MFB topology"
+		(exclude_from_sim no)
+		(at 125 30 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "36f97672-50ca-4424-a262-ab760ec1f86e")
+	)
+	(text "04 | ADC LEVEL SHIFT  -  1.65 V nominal"
+		(exclude_from_sim no)
+		(at 300 30 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "49d1d32e-50af-459e-8bb6-77b7c2222d05")
+	)
+	(text "INPUT: J1 connects to sensing coil; C1/C20/C21 tune the TANK network."
+		(exclude_from_sim no)
+		(at 30 35 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "65936a30-3d97-433d-9b38-418baf4e91ac")
+	)
+	(text "GAIN: Av = 1 + R8/R7; C5 AC-couples the input."
+		(exclude_from_sim no)
+		(at 215 35 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "69ab2e8f-065d-42e9-87a6-c21994e74c40")
+	)
+	(text "01 | LOW-NOISE PREAMPLIFIER  -  Av = 101"
+		(exclude_from_sim no)
+		(at 30 30 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "926d5a9a-07d0-4ca9-a7ee-c81ec477920a")
+	)
+	(text "03 | SECONDARY AMPLIFIER  -  Av = 16"
+		(exclude_from_sim no)
+		(at 215 30 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "a61bcb2e-f69f-4fb6-94f5-191e4f440009")
+	)
+	(text "DESIGN: Precision RC network sets the band-pass response."
+		(exclude_from_sim no)
+		(at 125 35 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "a9d4ab94-5344-4327-8da2-224bd7c5504a")
+	)
+	(text "TEST POINTS | STAGE OUTPUTS AND REFERENCES"
+		(exclude_from_sim no)
+		(at 30 118 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "db976a0d-4364-4420-9e9e-a7d707ff8695")
+	)
+	(text "POWER INPUT | +5 V / GND / -5 V"
+		(exclude_from_sim no)
+		(at 30 168 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "dbd1059c-ab8a-4e7b-9043-c336f3447cf0")
+	)
+	(text "ADC OUTPUT | MICROCONTROLLER INTERFACE"
+		(exclude_from_sim no)
+		(at 240 168 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "ffff3bd6-5ab3-4915-9eb4-8c6c67f83c44")
+	)
+	(wire
+		(pts
+			(xy 177.62 50)
+			(xy 180.16 50)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05124b57-b278-4df8-8ec5-32c03aaa0082")
+	)
+	(wire
+		(pts
+			(xy 90 177.38)
+			(xy 90 174.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05c376b6-a966-4cfc-8d08-24c0ec655735")
+	)
+	(wire
+		(pts
+			(xy 24.92 185)
+			(xy 22.38 185)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15e9a3f9-72fb-4a32-92b4-eaade879738c")
+	)
+	(wire
+		(pts
+			(xy 162.38 47.46)
+			(xy 159.84 47.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "179def47-b316-4c2b-bdff-0fc038bbaf4c")
+	)
+	(wire
+		(pts
+			(xy 69 95.81)
+			(xy 69 98.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d7a4a2d-d191-408c-b69d-07ba97f9377b")
+	)
+	(wire
+		(pts
+			(xy 45 95.81)
+			(xy 45 98.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1da33b71-b516-4736-bd47-8ffc754228e8")
+	)
+	(wire
+		(pts
+			(xy 244.92 192.54)
+			(xy 242.38 192.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1df2a04e-34c9-4dbe-a528-f56d369299f6")
+	)
+	(wire
+		(pts
+			(xy 346 88.19)
+			(xy 346 85.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e4a72bc-0109-4aa5-bd1e-a2c29f708cca")
+	)
+	(wire
+		(pts
+			(xy 84 135)
+			(xy 84 137.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22f84353-93f4-4d05-ac51-a783a2d8d0c0")
+	)
+	(wire
+		(pts
+			(xy 263 95.81)
+			(xy 263 98.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "294c62d8-58eb-4d69-b4a0-0d2dd21dcafb")
+	)
+	(wire
+		(pts
+			(xy 382 95.81)
+			(xy 382 98.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d7860c1-d160-4a96-a11e-7061dcbd8362")
+	)
+	(wire
+		(pts
+			(xy 190 88.19)
+			(xy 190 85.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d856ff0-5722-4792-b7d8-ab6329cf0e53")
+	)
+	(wire
+		(pts
+			(xy 154 95.81)
+			(xy 154 98.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34052d0d-46b3-4729-8c6e-51e6ad55d06a")
+	)
+	(wire
+		(pts
+			(xy 178 95.81)
+			(xy 178 98.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37a78417-cd7d-4048-a190-93b4f823f8d0")
+	)
+	(wire
+		(pts
+			(xy 342.62 50)
+			(xy 345.16 50)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cb9c6ad-e92e-46e5-8f08-edc505da7918")
+	)
+	(wire
+		(pts
+			(xy 162.38 52.54)
+			(xy 159.84 52.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cd3e442-499d-4e29-ab0a-b8c4848f65b2")
+	)
+	(wire
+		(pts
+			(xy 110 181.19)
+			(xy 110 178.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ce87600-5345-4f11-99f4-881115489eda")
+	)
+	(wire
+		(pts
+			(xy 146 188.81)
+			(xy 146 191.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d52236c-f90a-4836-87a0-ec88828739ee")
+	)
+	(wire
+		(pts
+			(xy 95 88.19)
+			(xy 95 85.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d89cc08-a50e-49d6-b99c-ad4af6a721c2")
+	)
+	(wire
+		(pts
+			(xy 24.92 187.54)
+			(xy 22.38 187.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "409e1db0-ff42-4a4a-a4f9-70c2608feaec")
+	)
+	(wire
+		(pts
+			(xy 263 88.19)
+			(xy 263 85.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "470aa06d-447c-4525-b9c6-0e6ee4640b0d")
+	)
+	(wire
+		(pts
+			(xy 178 88.19)
+			(xy 178 85.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47aaa383-419d-415f-95c0-68e8640c8ffc")
+	)
+	(wire
+		(pts
+			(xy 322 95.81)
+			(xy 322 98.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49934f17-3d2e-402b-b4af-748e92a1077a")
+	)
+	(wire
+		(pts
+			(xy 45 88.19)
+			(xy 45 85.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49b4f561-2a27-4f91-9b37-085571e4267c")
+	)
+	(wire
+		(pts
+			(xy 72.38 47.46)
+			(xy 69.84 47.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dd375a4-4d2e-429b-b681-6d7f11537d7a")
+	)
+	(wire
+		(pts
+			(xy 172 135)
+			(xy 172 137.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50e22b7b-3f74-42d1-bc5d-dce7e00693f3")
+	)
+	(wire
+		(pts
+			(xy 110 188.81)
+			(xy 110 191.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5854f27d-ab96-47da-a211-3d62db171458")
+	)
+	(wire
+		(pts
+			(xy 24.92 51.27)
+			(xy 22.38 51.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6411d9d5-3ad6-420d-ab3e-25a746ffcce6")
+	)
+	(wire
+		(pts
+			(xy 247.38 52.54)
+			(xy 244.84 52.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65e64040-1923-40d5-b227-b0a19f4d220a")
+	)
+	(wire
+		(pts
+			(xy 166 88.19)
+			(xy 166 85.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6caba7d0-ae30-4be4-9912-5fc8afe1a6a4")
+	)
+	(wire
+		(pts
+			(xy 310 95.81)
+			(xy 310 98.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f628338-f8ca-44d7-8556-3b2040b3f434")
+	)
+	(wire
+		(pts
+			(xy 24.92 48.73)
+			(xy 22.38 48.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6faa5a13-c33d-4a61-9e9d-830822d8bf7f")
+	)
+	(wire
+		(pts
+			(xy 194 135)
+			(xy 194 137.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7048bf4f-3c06-4ee5-ae1e-a9ea46109dfd")
+	)
+	(wire
+		(pts
+			(xy 334 95.81)
+			(xy 334 98.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71a0040d-130b-40d0-8c17-aa53563cc824")
+	)
+	(wire
+		(pts
+			(xy 90 192.62)
+			(xy 90 195.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72bfd45c-4441-439b-a2a6-7b8b46373ee4")
+	)
+	(wire
+		(pts
+			(xy 134 181.19)
+			(xy 134 178.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74060acd-e374-417b-aa6b-c0faee88769c")
+	)
+	(wire
+		(pts
+			(xy 24.92 182.46)
+			(xy 22.38 182.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75926362-30eb-4db7-9ba6-aaa748af6a6b")
+	)
+	(wire
+		(pts
+			(xy 215 88.19)
+			(xy 215 85.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7812ab5f-c7c2-44ea-8863-d2be9100884c")
+	)
+	(wire
+		(pts
+			(xy 87.62 50)
+			(xy 90.16 50)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79725336-7833-4053-9188-a033cd92573f")
+	)
+	(wire
+		(pts
+			(xy 150 135)
+			(xy 150 137.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a9764b6-1647-4604-b896-56ae80f0969e")
+	)
+	(wire
+		(pts
+			(xy 142 95.81)
+			(xy 142 98.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81e91532-80be-420f-aba7-065dcfc86375")
+	)
+	(wire
+		(pts
+			(xy 62 135)
+			(xy 62 137.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8200ad46-a247-4f36-8ac5-039d4c347040")
+	)
+	(wire
+		(pts
+			(xy 322 88.19)
+			(xy 322 85.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "823302af-1be5-4bf9-a843-4b73f39ffdd7")
+	)
+	(wire
+		(pts
+			(xy 57 95.81)
+			(xy 57 98.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8335d419-e358-44d3-b64f-5a03671a8132")
+	)
+	(wire
+		(pts
+			(xy 327.38 47.46)
+			(xy 324.84 47.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "836cec1f-c452-4a48-8157-87095936547d")
+	)
+	(wire
+		(pts
+			(xy 239 88.19)
+			(xy 239 85.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "870d1574-be63-4f7d-8832-7501e7a794d3")
+	)
+	(wire
+		(pts
+			(xy 130 88.19)
+			(xy 130 85.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ebf1ee6-703d-4d4d-ac6d-b2a3849eeda0")
+	)
+	(wire
+		(pts
+			(xy 382 88.19)
+			(xy 382 85.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f0e0f7c-0767-4b48-b5b1-1eb02dc430de")
+	)
+	(wire
+		(pts
+			(xy 310 88.19)
+			(xy 310 85.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98d06999-4e44-4e52-a020-6244643d31bd")
+	)
+	(wire
+		(pts
+			(xy 370 88.19)
+			(xy 370 85.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99f2149c-a1e2-4e6b-b9a9-c09ac62d2e4a")
+	)
+	(wire
+		(pts
+			(xy 358 95.81)
+			(xy 358 98.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9aa5bac6-e7e0-470f-9a26-0ec52e7a955c")
+	)
+	(wire
+		(pts
+			(xy 260 135)
+			(xy 260 137.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b6e2260-f035-44d2-83cb-1f4ffdeb1469")
+	)
+	(wire
+		(pts
+			(xy 251 95.81)
+			(xy 251 98.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d9197e8-08f4-4817-8b77-b968172f8bab")
+	)
+	(wire
+		(pts
+			(xy 107 95.81)
+			(xy 107 98.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f019dc2-8c00-40d6-a532-ea7f9f5912de")
+	)
+	(wire
+		(pts
+			(xy 346 95.81)
+			(xy 346 98.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a076e652-e219-491d-9e51-b395eb7bd4d3")
+	)
+	(wire
+		(pts
+			(xy 370 95.81)
+			(xy 370 98.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0f149dd-8eae-49ea-bc37-50c49c667e14")
+	)
+	(wire
+		(pts
+			(xy 216 135)
+			(xy 216 137.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2767764-0d4c-4a7f-be83-f31e7a2a7648")
+	)
+	(wire
+		(pts
+			(xy 358 88.19)
+			(xy 358 85.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a33d8ab3-28fc-42b3-8b77-16d2d2f2aa24")
+	)
+	(wire
+		(pts
+			(xy 327.38 52.54)
+			(xy 324.84 52.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a71548a0-1844-46cd-82c5-76d07b471b37")
+	)
+	(wire
+		(pts
+			(xy 227 88.19)
+			(xy 227 85.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8794d44-ec08-49f3-8653-e78d488e0be1")
+	)
+	(wire
+		(pts
+			(xy 106 135)
+			(xy 106 137.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adc84f30-3401-4496-9018-c2309c67ce61")
+	)
+	(wire
+		(pts
+			(xy 334 88.19)
+			(xy 334 85.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1def666-ae2e-4f0a-baff-90500dceaa01")
+	)
+	(wire
+		(pts
+			(xy 134 188.81)
+			(xy 134 191.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b26b0e51-a060-430d-9173-908f627dc1a3")
+	)
+	(wire
+		(pts
+			(xy 238 135)
+			(xy 238 137.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5ca0275-74b2-42f4-9893-94337cbdcc9f")
+	)
+	(wire
+		(pts
+			(xy 154 88.19)
+			(xy 154 85.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b66fbcd1-1d5e-452a-a94d-ea24b3bc618b")
+	)
+	(wire
+		(pts
+			(xy 239 95.81)
+			(xy 239 98.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b811d1a8-0592-46ad-8a6d-6a2ea0595b59")
+	)
+	(wire
+		(pts
+			(xy 72.38 52.54)
+			(xy 69.84 52.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b84c978e-a4ad-4634-9cce-1c9917b8c9e4")
+	)
+	(wire
+		(pts
+			(xy 244.92 190)
+			(xy 242.38 190)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd8ab688-4d46-444a-b984-9a331c3ec5b7")
+	)
+	(wire
+		(pts
+			(xy 166 95.81)
+			(xy 166 98.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be18d4eb-c7e0-4494-a457-64cc21e44d0d")
+	)
+	(wire
+		(pts
+			(xy 142 88.19)
+			(xy 142 85.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf6bd093-96a7-4eda-9a43-767c07653d87")
+	)
+	(wire
+		(pts
+			(xy 215 95.81)
+			(xy 215 98.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0b49c02-5859-465c-a809-fd37ff55e172")
+	)
+	(wire
+		(pts
+			(xy 95 95.81)
+			(xy 95 98.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c717d02d-c58e-49ba-a9f7-135e3958ec81")
+	)
+	(wire
+		(pts
+			(xy 130 95.81)
+			(xy 130 98.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca3368f4-ce48-43c3-9572-16ebb5b04da2")
+	)
+	(wire
+		(pts
+			(xy 146 181.19)
+			(xy 146 178.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbf86781-fd12-42d2-abdd-56a84f8e48b2")
+	)
+	(wire
+		(pts
+			(xy 190 95.81)
+			(xy 190 98.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf2035f1-a30d-4c52-af7b-425ff2735b24")
+	)
+	(wire
+		(pts
+			(xy 262.62 50)
+			(xy 265.16 50)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfcdfe67-481c-4f59-a085-a801ffbfec6f")
+	)
+	(wire
+		(pts
+			(xy 57 88.19)
+			(xy 57 85.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5a6b2d1-714d-46b1-bd08-17c9645ca577")
+	)
+	(wire
+		(pts
+			(xy 128 135)
+			(xy 128 137.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db71fb76-840b-4e3c-b9da-cb1599114001")
+	)
+	(wire
+		(pts
+			(xy 251 88.19)
+			(xy 251 85.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcff7b4e-74bd-4a80-a3d1-8820419d09c1")
+	)
+	(wire
+		(pts
+			(xy 107 88.19)
+			(xy 107 85.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd2e513e-9e2e-4166-8969-16278147cf46")
+	)
+	(wire
+		(pts
+			(xy 227 95.81)
+			(xy 227 98.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e393c11c-4c2f-45ce-9674-72b85cf771dc")
+	)
+	(wire
+		(pts
+			(xy 244.92 187.46)
+			(xy 242.38 187.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6d0f738-28f1-43f1-848e-c13778aa4e46")
+	)
+	(wire
+		(pts
+			(xy 122 188.81)
+			(xy 122 191.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8be2cb5-931f-46b0-9dfe-ac80f994b7ea")
+	)
+	(wire
+		(pts
+			(xy 247.38 47.46)
+			(xy 244.84 47.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8c5bcfb-f16a-44d3-9da9-5e91e6efff76")
+	)
+	(wire
+		(pts
+			(xy 122 181.19)
+			(xy 122 178.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec8f7789-beea-49fc-bbf2-b668373e23a4")
+	)
+	(wire
+		(pts
+			(xy 69 88.19)
+			(xy 69 85.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb866279-18ed-48a9-907f-8b54ac533d01")
+	)
+	(wire
+		(pts
+			(xy 40 135)
+			(xy 40 137.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fea6b931-e54e-4ad5-ba94-14de69793275")
+	)
+	(label "ADC_IN"
+		(at 370 98.35 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "02ccb239-c3a3-47c4-ab0b-7ac81198c3cf")
+	)
+	(label "GND"
+		(at 22.38 185 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "067666a2-a680-4213-83e2-9d87a9d7c3a9")
+	)
+	(label "BIAS_BUF"
+		(at 345.16 50 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0a10fcc7-49fb-43bf-b717-7d43d555f93d")
+	)
+	(label "STAGE1"
+		(at 95 85.65 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0bc04b1b-b882-48f0-b860-6bf7e53701c4")
+	)
+	(label "GND"
+		(at 69 98.35 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1285bec6-b3d4-4df3-b9e0-37293960ff39")
+	)
+	(label "S3_NEG"
+		(at 239 85.65 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1832ba9b-a69f-40e6-9675-1c6a54387c24")
+	)
+	(label "-5V"
+		(at 90 195.16 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "19ce61f3-c719-4486-a77f-b37df57e1a6e")
+	)
+	(label "VMID"
+		(at 322 85.65 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1e32304a-37cf-4307-ae22-aa8344efcb4c")
+	)
+	(label "STAGE2"
+		(at 190 98.35 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1fc9ee9b-f907-4e30-a2ee-6be9babbc2b0")
+	)
+	(label "VMID"
+		(at 324.84 47.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "28be317b-65c5-4500-9d50-7fe2e35699db")
+	)
+	(label "-5V"
+		(at 122 178.65 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "295906a9-9b39-4da8-b868-e6c16c9b96d6")
+	)
+	(label "GND"
+		(at 110 191.35 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "29d0a0b5-3673-4f3f-ae82-6e12756ff3a4")
+	)
+	(label "S2_A"
+		(at 166 85.65 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2c872aef-f3d8-473b-adbd-63bd948882f8")
+	)
+	(label "GND"
+		(at 107 98.35 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2d935e64-8476-4fdc-b65c-f505945f7734")
+	)
+	(label "GND"
+		(at 57 98.35 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2e745f26-a71f-4e04-89a1-694c8cdc036a")
+	)
+	(label "-5V"
+		(at 146 178.65 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2e82643b-11b4-4683-a3e9-0c34f3e35bd9")
+	)
+	(label "S2_A"
+		(at 142 98.35 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2eaa2cde-8980-4ee4-ac7f-b5a030ef9a93")
+	)
+	(label "STAGE2"
+		(at 215 85.65 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2ee7d125-5e8b-49a1-8382-f7f6c4d1149d")
+	)
+	(label "-5V"
+		(at 63 155 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "30766f73-e2df-487e-ae7b-9f187cf777cd")
+	)
+	(label "GND"
+		(at 334 98.35 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "33d16cd0-ccda-4282-b09d-15939bfb06b4")
+	)
+	(label "BIAS_BUF"
+		(at 358 85.65 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "36ea0f56-46cc-4de4-9e9a-103053b39da0")
+	)
+	(label "S1_INV"
+		(at 107 85.65 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3b4b6dfb-1ecf-4f03-8adb-2632b254fe5b")
+	)
+	(label "STAGE1"
+		(at 130 85.65 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3d17e8d5-3cc5-4b41-a472-bb6c1c5ebe27")
+	)
+	(label "GND"
+		(at 159.84 47.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "400359e4-58df-4aa6-a2bd-8a622d105764")
+	)
+	(label "TANK"
+		(at 22.38 48.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "411e34ca-b8c5-496e-afeb-28109629d373")
+	)
+	(label "S3_IN"
+		(at 215 98.35 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "44daa8de-18bf-4d87-b039-b1eab4831af9")
+	)
+	(label "ADC_IN"
+		(at 242.38 187.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "451a771e-4493-4226-bbd8-9f35034e7a54")
+	)
+	(label "S3_NEG"
+		(at 244.84 52.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5050ab56-e429-47af-8104-a4347b2abd35")
+	)
+	(label "+3V3"
+		(at 242.38 192.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "57338b10-0fe4-4b36-985a-3874f0b06e36")
+	)
+	(label "GND"
+		(at 134 191.35 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5ab09fc1-60dc-4ace-ad79-aba2d7bbbc8d")
+	)
+	(label "+5V"
+		(at 172 137.54 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5da299fb-d512-40ad-9a1f-03ba6e3b2e53")
+	)
+	(label "GND"
+		(at 382 98.35 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5f5984c3-2661-4095-99d2-adfb7723d70d")
+	)
+	(label "S3_IN"
+		(at 227 85.65 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6213c19f-858d-45d3-8223-982515a49b1e")
+	)
+	(label "+5V"
+		(at 55 155 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6314c33b-cb25-41fa-ae0a-a70452613651")
+	)
+	(label "GND"
+		(at 45 98.35 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "643d271e-5c4d-43fc-b008-fec57fd203ea")
+	)
+	(label "BIAS_BUF"
+		(at 324.84 52.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "65b453ca-6f80-446d-b0e1-cf8e0bef4cd5")
+	)
+	(label "ADC_IN"
+		(at 150 137.54 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6702ce0b-11f0-4145-b2a9-b8273cc9b7e5")
+	)
+	(label "VMID"
+		(at 334 85.65 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6c80be8b-e9b7-403b-a992-38dc98fd894a")
+	)
+	(label "STAGE2"
+		(at 84 137.54 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6d156e1c-9d6d-48ff-9748-96bb1625bf60")
+	)
+	(label "ADC_IN"
+		(at 382 85.65 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "71ea7494-bbcc-4ca7-841d-1caecd848571")
+	)
+	(label "+5V"
+		(at 134 178.65 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "728a6db9-6719-4168-9b8a-3b3c6fc912c6")
+	)
+	(label "S2_IN"
+		(at 130 98.35 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7520b7c5-93bb-4b98-b639-ef02caf6b540")
+	)
+	(label "BIAS_NODE"
+		(at 358 98.35 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "76879b23-8729-4e0d-9808-6ca87536701c")
+	)
+	(label "GND"
+		(at 238 137.54 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7f9f546f-5d2b-408f-8281-f2f138498c38")
+	)
+	(label "STAGE1"
+		(at 62 137.54 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "85d8062d-9fa9-4621-81f2-5459ceeadba9")
+	)
+	(label "-5V"
+		(at 194 137.54 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8a5eb85b-4341-4980-a7ea-a5d30b9f3d27")
+	)
+	(label "GND"
+		(at 22.38 51.27 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8bb199b0-4bc8-4a03-b0a9-b6be3148f921")
+	)
+	(label "+5V"
+		(at 22.38 182.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "940b6dde-628e-46c7-8b3a-d39f0ce5fddc")
+	)
+	(label "TANK"
+		(at 57 85.65 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "975bc594-ea10-48cf-a2a4-bdcd06d31003")
+	)
+	(label "STAGE3"
+		(at 251 98.35 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "97723e4c-5934-4526-a0ef-c1e6234ce049")
+	)
+	(label "VMID"
+		(at 128 137.54 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9835d4e6-16f2-4a6c-8443-3389183479e3")
+	)
+	(label "S2_A"
+		(at 178 85.65 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9d6b3634-ebfd-4686-b143-01b9be97bfb6")
+	)
+	(label "+5V"
+		(at 90 174.84 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a0b959b6-c41a-43a0-aaff-fe0da3d8ef51")
+	)
+	(label "GND"
+		(at 146 191.35 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a266023c-9f11-4fa0-b985-e998423cb0ee")
+	)
+	(label "STAGE3"
+		(at 265.16 50 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a46cdc35-9b0d-4418-8edc-8e01356f44a0")
+	)
+	(label "GND"
+		(at 71 155 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a6a3a168-0108-4ff4-8f99-e73178aec489")
+	)
+	(label "+3V3"
+		(at 216 137.54 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a7e43ecc-e14f-4ea5-908b-3df9063fe14a")
+	)
+	(label "BIAS_NODE"
+		(at 370 85.65 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aa600998-ee4f-4bb0-a16b-b23d3f7ab91e")
+	)
+	(label "GND"
+		(at 260 137.54 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ab65ab3d-1096-4c3a-9d7a-357fd234686f")
+	)
+	(label "S2_A"
+		(at 154 85.65 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aee7059d-7cc0-4e6e-83f0-5d691f304616")
+	)
+	(label "GND"
+		(at 239 98.35 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "afc3adb8-c710-4ae1-8c56-8d80456d9442")
+	)
+	(label "VMID"
+		(at 310 98.35 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b094fcb0-f02b-442a-b2e4-2a5dc7e89d40")
+	)
+	(label "STAGE2"
+		(at 180.16 50 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b706d89f-7555-4241-a78e-96cff9b4fab5")
+	)
+	(label "-5V"
+		(at 22.38 187.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b7417634-5d98-4528-a144-8f318b87e3c3")
+	)
+	(label "TANK"
+		(at 69 85.65 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b817a834-bfe7-49df-a865-ee6184659b46")
+	)
+	(label "GND"
+		(at 242.38 190 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bcbca5ea-18f7-4d26-ae4d-eb34b26b6e18")
+	)
+	(label "GND"
+		(at 322 98.35 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bd809aad-6a4c-4efe-9aff-7fb1f7e0373d")
+	)
+	(label "TANK"
+		(at 45 85.65 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bebde428-cd6d-4f25-9e8e-39926cce3ede")
+	)
+	(label "STAGE3"
+		(at 346 85.65 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c0168cff-577f-4f61-8ab7-dec6ad3d803e")
+	)
+	(label "GND"
+		(at 227 98.35 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c33611b9-7001-450c-aeda-9360294f6d74")
+	)
+	(label "STAGE3"
+		(at 106 137.54 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cef0e73a-50e7-42fa-84b4-9adcafa20cad")
+	)
+	(label "S2_N"
+		(at 190 85.65 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d44166bf-0946-463f-9e9a-fbad9fbed61d")
+	)
+	(label "S2_N"
+		(at 159.84 52.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d48b15a3-4c7b-4bc3-99f3-b933ed8c76c5")
+	)
+	(label "S3_NEG"
+		(at 251 85.65 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d532e263-4263-4379-8e3f-75862c380f96")
+	)
+	(label "S1_INV"
+		(at 69.84 52.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d56f3ec9-8edf-4531-a348-c228c36605b4")
+	)
+	(label "BIAS_NODE"
+		(at 346 98.35 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d610c4c8-bd40-4254-9d83-8aa0175848c3")
+	)
+	(label "GND"
+		(at 154 98.35 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d6e279ce-0598-4a03-aa0e-4b6ae5ff0315")
+	)
+	(label "+3V3"
+		(at 310 85.65 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d88c7a4d-0b95-467e-af46-c1817eadf3c8")
+	)
+	(label "S3_IN"
+		(at 244.84 47.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ddee3422-ec44-41d7-a6ae-9c0545bd81d1")
+	)
+	(label "STAGE2"
+		(at 178 98.35 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "df646d54-7c7c-40e4-9b2a-5577839a0957")
+	)
+	(label "TANK"
+		(at 69.84 47.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e0398981-2164-4023-a827-7707ba8ca49e")
+	)
+	(label "S2_IN"
+		(at 142 85.65 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e226ea2b-373a-45be-ab25-9e0a2494d4d8")
+	)
+	(label "S3_NEG"
+		(at 263 85.65 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e84d6c98-013d-4e2a-9a25-5790bb514aa0")
+	)
+	(label "STAGE1"
+		(at 90.16 50 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eb9fa500-300c-4117-82c9-71f036e36658")
+	)
+	(label "TANK"
+		(at 40 137.54 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ec1c9214-1eb2-4cf8-9b6f-502952f7fd59")
+	)
+	(label "+5V"
+		(at 110 178.65 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f6450fc3-62ef-4f87-86bf-fdb68e94090e")
+	)
+	(label "S1_INV"
+		(at 95 98.35 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f8a69889-6627-4b0f-b9c2-5248dd712d4e")
+	)
+	(label "S2_N"
+		(at 166 98.35 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f8b4b168-5fa1-4ce1-b9ed-f20fbea79ca4")
+	)
+	(label "STAGE3"
+		(at 263 98.35 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fa2301bb-a011-4793-98fe-b2cb395af3dd")
+	)
+	(label "GND"
+		(at 122 191.35 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fd4c778c-c736-41a6-9240-bcb1aa70422d")
+	)
+	(symbol
+		(lib_id "Magnetometer:OPA4227")
+		(at 80 50 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "04d1d679-d7a7-4dc5-869a-9028c31d30f3")
+		(property "Reference" "U1"
+			(at 77 43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "OPA4227PA"
+			(at 77 57.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Magnetometer_Local:U1_DIP-14_W7.62mm"
+			(at 80 50 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80 50 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Quad low-noise precision op amp, +/-5V"
+			(at 80 50 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "3da0ba3f-484f-4d2c-b276-f385453192fa")
+		)
+		(pin "2"
+			(uuid "98b309c3-e80a-4920-8bfc-eb94c8c2ce77")
+		)
+		(pin "1"
+			(uuid "1470474e-6930-4a3c-84c9-c21ef39a83f3")
+		)
+		(pin "13"
+			(uuid "32fbf815-c7db-415a-80b4-86c604a4749f")
+		)
+		(pin "14"
+			(uuid "26debdb7-2a87-402e-90e1-b7351d98faa0")
+		)
+		(pin "9"
+			(uuid "341b64b8-2877-4340-b07a-433a08305125")
+		)
+		(pin "6"
+			(uuid "e5b1c07d-a44f-4df8-89f6-a7282b4a0d0e")
+		)
+		(pin "5"
+			(uuid "c2f3b50a-f11d-47f9-927d-15004cab5a2d")
+		)
+		(pin "7"
+			(uuid "2112f941-be82-46df-ba5e-21f25ca358a9")
+		)
+		(pin "11"
+			(uuid "006a07e5-7cb2-4f63-abaf-9bb64ee3a132")
+		)
+		(pin "12"
+			(uuid "27ffe754-72dd-4cdd-929a-6465903468ae")
+		)
+		(pin "10"
+			(uuid "0009447e-4594-4eca-9c4a-526db228dd04")
+		)
+		(pin "4"
+			(uuid "3c41ae64-71ac-48c6-a5bd-dab91cab4c3c")
+		)
+		(pin "8"
+			(uuid "d348031f-db12-44a4-a083-4f5aa0c695f1")
+		)
+		(instances
+			(project "magnetometer_amp"
+				(path "/ad2bef85-0886-45b7-8eb6-634149eaa721"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 95 92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a90d44b-8e5f-4fc9-95db-f5d9c1a6a4b8")
+		(property "Reference" "R2"
+			(at 97.54 90.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 97.54 93.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Magnetometer_Local:R2_R_0603_1608Metric"
+			(at 95 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Feedback, 0.1%"
+			(at 95 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ffcc033e-8dcd-4152-bd00-1627d7f2318d")
+		)
+		(pin "2"
+			(uuid "0ef684f9-bc79-4a68-a2a9-073d63136371")
+		)
+		(instances
+			(project "magnetometer_amp"
+				(path "/ad2bef85-0886-45b7-8eb6-634149eaa721"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 382 92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f70a6cf-408f-407f-8bae-94d97b6612e3")
+		(property "Reference" "C8"
+			(at 384.54 90.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10n"
+			(at 384.54 93.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Magnetometer_Local:C8_Film_ECH_U1H103GX5"
+			(at 382 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/film-cap-electroequip/models/ECHU1H103GX5"
+			(at 382 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "C0G"
+			(at 382 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6a910721-c56e-48cc-ba99-a2e3b01918a6")
+		)
+		(pin "2"
+			(uuid "24631808-d619-4c32-b997-bee61709b3d7")
+		)
+		(instances
+			(project "magnetometer_amp"
+				(path "/ad2bef85-0886-45b7-8eb6-634149eaa721"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 382 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ECH-U1H103GX5"
+			(at 382 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "PPS film"
+			(at 382 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Magnetometer:Conn_01x03")
+		(at 30 185 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "124bdf33-b2f7-46a8-ad52-903e07973252")
+		(property "Reference" "J2"
+			(at 27 178 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PWR (+5V, GND, -5V)"
+			(at 27 192 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Magnetometer_Local:J2_PinHeader_1x03_P2.54mm_Vertical"
+			(at 30 185 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30 185 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Pin header"
+			(at 30 185 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "921fefda-d2e0-4511-bad2-809fe2917fec")
+		)
+		(pin "2"
+			(uuid "2477b5e4-336c-4547-9553-ed4139e3ffba")
+		)
+		(pin "3"
+			(uuid "cb20cc91-4d69-4d59-8446-1469d676e481")
+		)
+		(instances
+			(project "magnetometer_amp"
+				(path "/ad2bef85-0886-45b7-8eb6-634149eaa721"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 55 155 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14694b19-5370-427b-9e90-0382841d6fe0")
+		(property "Reference" "#FLG01"
+			(at 57.54 153.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 57.54 156.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 55 155 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55 155 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power flag"
+			(at 55 155 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4d1f0671-08c3-4e57-8994-970904ef69b3")
+		)
+		(instances
+			(project "magnetometer_amp"
+				(path "/ad2bef85-0886-45b7-8eb6-634149eaa721"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 178 92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "205fd48e-514a-485c-9d87-bf92fdd39c62")
+		(property "Reference" "C3"
+			(at 180.54 90.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10n"
+			(at 180.54 93.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Magnetometer_Local:C3_Film_ECH_U1H103GX5"
+			(at 178 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/film-cap-electroequip/models/ECHU1H103GX5"
+			(at 178 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "C0G"
+			(at 178 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ba9f4aed-8a86-4cf1-bee9-e2e6666c43f9")
+		)
+		(pin "2"
+			(uuid "cb5570b6-0f6b-4dde-b862-f4a93b9d0266")
+		)
+		(instances
+			(project "magnetometer_amp"
+				(path "/ad2bef85-0886-45b7-8eb6-634149eaa721"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 178 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ECH-U1H103GX5"
+			(at 178 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "PPS film"
+			(at 178 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 334 92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c0509ef-ae72-4d8a-9e1b-3e3992b0ca74")
+		(property "Reference" "C9"
+			(at 336.54 90.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 336.54 93.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Magnetometer_Local:C9_C_0603_1608Metric"
+			(at 334 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 334 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "VMID bypass"
+			(at 334 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8e33fe3a-539e-41ef-ad85-f0bb0632276a")
+		)
+		(pin "2"
+			(uuid "4c948e9d-c70f-4df2-aa21-6579882aef59")
+		)
+		(instances
+			(project "magnetometer_amp"
+				(path "/ad2bef85-0886-45b7-8eb6-634149eaa721"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 227 92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33ea30de-2da4-4b83-bb4f-ffd46d8f91c4")
+		(property "Reference" "R6"
+			(at 229.54 90.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1M"
+			(at 229.54 93.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Magnetometer_Local:R6_R_0603_1608Metric"
+			(at 227 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 227 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7652ce7b-1a19-46a4-b098-03f952ea6204")
+		)
+		(pin "2"
+			(uuid "8ea65420-89b7-4984-9c31-4cf407e94757")
+		)
+		(instances
+			(project "magnetometer_amp"
+				(path "/ad2bef85-0886-45b7-8eb6-634149eaa721"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 310 92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d01bbdb-2bc6-468e-b10a-f171996a83e6")
+		(property "Reference" "R10"
+			(at 312.54 90.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 312.54 93.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Magnetometer_Local:R10_R_0603_1608Metric"
+			(at 310 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 310 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 310 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "09a462a6-3496-499f-bde6-b678bb19ddb0")
+		)
+		(pin "2"
+			(uuid "995d744e-cd00-49dd-b6ab-1bc40b796460")
+		)
+		(instances
+			(project "magnetometer_amp"
+				(path "/ad2bef85-0886-45b7-8eb6-634149eaa721"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 251 92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3dc9aee1-f458-4104-944e-65f445eacada")
+		(property "Reference" "R8"
+			(at 253.54 90.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "15k"
+			(at 253.54 93.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Magnetometer_Local:R8_R_0603_1608Metric"
+			(at 251 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 251 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c3087cb9-ab98-4a9e-90ae-a62705938eb1")
+		)
+		(pin "2"
+			(uuid "aa6f4135-b0f9-4a65-b997-eaa26a513483")
+		)
+		(instances
+			(project "magnetometer_amp"
+				(path "/ad2bef85-0886-45b7-8eb6-634149eaa721"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Magnetometer:TestPoint")
+		(at 216 135 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "495f88a2-0934-4d8d-8fef-542f8cbf622f")
+		(property "Reference" "TP9"
+			(at 218 133 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 218 135.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Magnetometer_Local:TP9_TestPoint_Loop_D2.50mm_Drill1.0mm"
+			(at 216 135 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 216 135 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Test point"
+			(at 216 135 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "214d85c9-144b-4eb4-8e6a-5543ce7074dd")
+		)
+		(instances
+			(project "magnetometer_amp"
+				(path "/ad2bef85-0886-45b7-8eb6-634149eaa721"
+					(reference "TP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 142 92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a911fec-35e1-4110-a62c-8a7dd8eb57a5")
+		(property "Reference" "R5"
+			(at 144.54 90.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.3k"
+			(at 144.54 93.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Magnetometer_Local:R5_R_0603_1608Metric"
+			(at 142 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 142 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "403c0529-8459-4f81-a5fe-c6b764ff9298")
+		)
+		(pin "2"
+			(uuid "10004631-e03e-488a-ac48-c2880582c82a")
+		)
+		(instances
+			(project "magnetometer_amp"
+				(path "/ad2bef85-0886-45b7-8eb6-634149eaa721"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 63 155 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57c3f274-5dc9-4d19-873a-e009f363412e")
+		(property "Reference" "#FLG02"
+			(at 65.54 153.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 65.54 156.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 63 155 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63 155 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power flag"
+			(at 63 155 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1984030c-4af1-4f64-877f-eee3e8a2055e")
+		)
+		(instances
+			(project "magnetometer_amp"
+				(path "/ad2bef85-0886-45b7-8eb6-634149eaa721"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Magnetometer:OPA4227")
+		(at 335 50 0)
+		(unit 4)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d7be994-a217-42fd-9b85-0a4d8cda07cc")
+		(property "Reference" "U1"
+			(at 332 43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "OPA4227PA"
+			(at 332 57.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Magnetometer_Local:U1_DIP-14_W7.62mm"
+			(at 335 50 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 335 50 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Quad low-noise precision op amp, +/-5V"
+			(at 335 50 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "12"
+			(uuid "d91333e3-459c-4406-9961-4e4f1ef573c4")
+		)
+		(pin "13"
+			(uuid "5a147273-43ce-4779-973e-0a6057bfb0f0")
+		)
+		(pin "14"
+			(uuid "917543b1-a2c3-47f4-87f7-927315f8ed8b")
+		)
+		(pin "11"
+			(uuid "8b5e9cca-5994-4bc3-860d-22f1d7f84d53")
+		)
+		(pin "3"
+			(uuid "0babdad5-41f3-4b48-b4de-c745ba0aa236")
+		)
+		(pin "7"
+			(uuid "e66c793c-2955-4ca3-a8fe-ffc071a8cfc1")
+		)
+		(pin "6"
+			(uuid "6f155edb-6f71-4a81-a607-bbc7b4301690")
+		)
+		(pin "4"
+			(uuid "bd7b0ad6-b5ec-408f-85e3-fb576fd02e4d")
+		)
+		(pin "2"
+			(uuid "e517a242-79b5-4009-8dd6-19f817424c97")
+		)
+		(pin "9"
+			(uuid "36027ca6-c86a-4532-856f-c199f75da6a5")
+		)
+		(pin "10"
+			(uuid "f5ab3a4e-e8e2-43c4-b6f1-d1a7e5c36fc0")
+		)
+		(pin "8"
+			(uuid "db0f5e67-e7ea-4250-af69-e30939fb8157")
+		)
+		(pin "5"
+			(uuid "615a9e6e-47ab-4f67-a3cf-1e2a596e120f")
+		)
+		(pin "1"
+			(uuid "364f39ac-7751-4207-9a4d-0d6e89ae93d6")
+		)
+		(instances
+			(project "magnetometer_amp"
+				(path "/ad2bef85-0886-45b7-8eb6-634149eaa721"
+					(reference "U1")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Magnetometer:Conn_01x02")
+		(at 30 50 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5edf06f1-c296-4351-9ba0-c02d171fa2ff")
+		(property "Reference" "J1"
+			(at 27 45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "COIL_IN (TANK, GND)"
+			(at 27 55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Magnetometer_Local:J1_PinHeader_1x02_P2.54mm_Vertical"
+			(at 30 50 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30 50 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Pin header"
+			(at 30 50 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9b9cc954-b72b-4a1e-a8ab-55d271649a2a")
+		)
+		(pin "2"
+			(uuid "e5e50b15-0b2b-4e5f-a7a4-6ded907e58e2")
+		)
+		(instances
+			(project "magnetometer_amp"
+				(path "/ad2bef85-0886-45b7-8eb6-634149eaa721"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Magnetometer:OPA4227")
+		(at 90 185 0)
+		(unit 5)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "620abe95-183c-40fc-b5ee-887166a32ee2")
+		(property "Reference" "U1"
+			(at 95 184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "OPA4227PA"
+			(at 95 187 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Magnetometer_Local:U1_DIP-14_W7.62mm"
+			(at 90 185 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90 185 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Quad low-noise precision op amp, +/-5V"
+			(at 90 185 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "af9581ab-2fcd-4aad-980f-f4d0e8efe839")
+		)
+		(pin "11"
+			(uuid "6271da84-140c-41fb-a7a3-d7064e48ec5c")
+		)
+		(pin "5"
+			(uuid "f7ca4776-6f02-416c-97a1-06202e0641f6")
+		)
+		(pin "2"
+			(uuid "141be4d6-e0e6-4954-a25c-370fa9866b0c")
+		)
+		(pin "6"
+			(uuid "fb27661f-8f60-4492-bf4c-ce4c81799bd6")
+		)
+		(pin "3"
+			(uuid "f1d54c7c-3056-47f3-bf3d-138be0cc61b0")
+		)
+		(pin "1"
+			(uuid "e2152273-23de-4b07-944b-4d5f6d32eb1e")
+		)
+		(pin "13"
+			(uuid "ae9f702a-7bfb-44a1-ae40-93b1f9445d36")
+		)
+		(pin "14"
+			(uuid "cc21e1be-3697-403e-b5b0-37231ab5ea82")
+		)
+		(pin "12"
+			(uuid "64dbed5c-680f-4187-8fa9-3925c6f1cad3")
+		)
+		(pin "7"
+			(uuid "a7a47d42-474d-4850-a2d9-25f12a1d56e5")
+		)
+		(pin "8"
+			(uuid "4ee7d7d6-80d0-4640-9d6c-8199991f4fc9")
+		)
+		(pin "9"
+			(uuid "9d1d20df-0b4f-4d62-bab7-a046df9a0a1d")
+		)
+		(pin "10"
+			(uuid "8017575c-4fe3-4c04-a1c7-d6eb4bd13952")
+		)
+		(instances
+			(project "magnetometer_amp"
+				(path "/ad2bef85-0886-45b7-8eb6-634149eaa721"
+					(reference "U1")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 239 92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "71e2272c-abf9-4fcc-82bb-d7df55ce8077")
+		(property "Reference" "R7"
+			(at 241.54 90.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 241.54 93.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Magnetometer_Local:R7_R_0603_1608Metric"
+			(at 239 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 239 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 239 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f51b346d-fb5d-4230-bb74-c7ede4e0d6a2")
+		)
+		(pin "2"
+			(uuid "2564d07d-3b6f-492c-b6b0-78ef53714f7f")
+		)
+		(instances
+			(project "magnetometer_amp"
+				(path "/ad2bef85-0886-45b7-8eb6-634149eaa721"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 71 155 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75688bcd-c1be-4659-87ed-8f52b5add32b")
+		(property "Reference" "#FLG03"
+			(at 73.54 153.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 73.54 156.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 71 155 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71 155 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power flag"
+			(at 71 155 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c1291a77-e881-4160-8a92-241543f3ce02")
+		)
+		(instances
+			(project "magnetometer_amp"
+				(path "/ad2bef85-0886-45b7-8eb6-634149eaa721"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Magnetometer:TestPoint")
+		(at 194 135 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "836256ae-10c8-4f37-8b7b-c49385383710")
+		(property "Reference" "TP8"
+			(at 196 133 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "-5V"
+			(at 196 135.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Magnetometer_Local:TP8_TestPoint_Loop_D2.50mm_Drill1.0mm"
+			(at 194 135 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194 135 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Test point"
+			(at 194 135 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "493aee63-5035-4181-a96a-9ee6a4b263e6")
+		)
+		(instances
+			(project "magnetometer_amp"
+				(path "/ad2bef85-0886-45b7-8eb6-634149eaa721"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Magnetometer:TestPoint")
+		(at 128 135 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89a0d684-35a0-49a6-a778-f435a54637e7")
+		(property "Reference" "TP5"
+			(at 130 133 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VMID"
+			(at 130 135.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Magnetometer_Local:TP5_TestPoint_Loop_D2.50mm_Drill1.0mm"
+			(at 128 135 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128 135 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Test point"
+			(at 128 135 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fbd49a17-709f-4415-9c89-26c3168881b5")
+		)
+		(instances
+			(project "magnetometer_amp"
+				(path "/ad2bef85-0886-45b7-8eb6-634149eaa721"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 370 92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89d8b5a8-ff84-4331-8c1d-0886f91ce603")
+		(property "Reference" "R9"
+			(at 372.54 90.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 372.54 93.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Magnetometer_Local:R9_R_0603_1608Metric"
+			(at 370 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 370 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 370 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4870ece0-10dc-40f3-a816-3405ace64887")
+		)
+		(pin "2"
+			(uuid "d587203c-8553-4b84-bd8c-1b9fdcc5f092")
+		)
+		(instances
+			(project "magnetometer_amp"
+				(path "/ad2bef85-0886-45b7-8eb6-634149eaa721"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 110 185 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8cfa5b6f-f58d-4ff9-b1e4-46fdceed7f5f")
+		(property "Reference" "C10"
+			(at 112.54 183.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 112.54 186.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Magnetometer_Local:C10_C_0603_1608Metric"
+			(at 110 185 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110 185 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Decoupling at U1 pin 4"
+			(at 110 185 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e78a867c-60ab-43d9-8401-6d549fddaf0b")
+		)
+		(pin "2"
+			(uuid "267f56e2-2d25-42c1-a234-746670f4e1d2")
+		)
+		(instances
+			(project "magnetometer_amp"
+				(path "/ad2bef85-0886-45b7-8eb6-634149eaa721"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Magnetometer:TestPoint")
+		(at 150 135 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f208bdd-a036-4e2f-81ac-52f438ba918a")
+		(property "Reference" "TP6"
+			(at 152 133 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ADC-IN"
+			(at 152 135.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Magnetometer_Local:TP6_TestPoint_Loop_D2.50mm_Drill1.0mm"
+			(at 150 135 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 150 135 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Test point"
+			(at 150 135 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "56ad806c-19b6-4b5f-80b4-f635f2f931ec")
+		)
+		(instances
+			(project "magnetometer_amp"
+				(path "/ad2bef85-0886-45b7-8eb6-634149eaa721"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 166 92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90d6f89f-a2bf-4039-b05d-5626e62f1a42")
+		(property "Reference" "C4"
+			(at 168.54 90.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10n"
+			(at 168.54 93.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Magnetometer_Local:C4_Film_ECH_U1H103GX5"
+			(at 166 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/film-cap-electroequip/models/ECHU1H103GX5"
+			(at 166 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "C0G"
+			(at 166 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8628125e-7a8b-4b30-9793-18bf09859271")
+		)
+		(pin "2"
+			(uuid "3e3c89b4-b175-4012-b78d-b7dc044ca18a")
+		)
+		(instances
+			(project "magnetometer_amp"
+				(path "/ad2bef85-0886-45b7-8eb6-634149eaa721"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 166 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ECH-U1H103GX5"
+			(at 166 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "PPS film"
+			(at 166 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 346 92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90eae275-3a65-4435-b405-bb6f5ac18a11")
+		(property "Reference" "C7"
+			(at 348.54 90.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 348.54 93.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Magnetometer_Local:C7_Film_SMDIC04100TB00KQ00"
+			(at 346 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.wima.de/en/our-product-range/smd-capacitors/smd-pps/"
+			(at 346 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Coupling, film or C0G preferred"
+			(at 346 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c5565fe2-e011-4a33-bb15-52989aad6ef0")
+		)
+		(pin "2"
+			(uuid "7c561e19-acc2-431d-812f-c13e130b1496")
+		)
+		(instances
+			(project "magnetometer_amp"
+				(path "/ad2bef85-0886-45b7-8eb6-634149eaa721"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+		(property "Manufacturer" "WIMA"
+			(at 346 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SMDIC04100TB00KQ00"
+			(at 346 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "PPS film"
+			(at 346 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 358 92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92972bdc-531d-481e-8036-1715095bee6e")
+		(property "Reference" "R13"
+			(at 360.54 90.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 360.54 93.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Magnetometer_Local:R13_R_0603_1608Metric"
+			(at 358 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 358 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 358 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2c5ed6fe-3afb-445b-81a9-1d9c6692d456")
+		)
+		(pin "2"
+			(uuid "9abe3d3d-6a85-4164-82b3-9b38277cb4f9")
+		)
+		(instances
+			(project "magnetometer_amp"
+				(path "/ad2bef85-0886-45b7-8eb6-634149eaa721"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Magnetometer:OPA4227")
+		(at 170 50 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93501df8-46a3-48f9-b246-f67714f3df40")
+		(property "Reference" "U1"
+			(at 167 43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "OPA4227PA"
+			(at 167 57.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Magnetometer_Local:U1_DIP-14_W7.62mm"
+			(at 170 50 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170 50 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Quad low-noise precision op amp, +/-5V"
+			(at 170 50 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "8b5bea23-1ad0-49a1-b3bc-bcc04e9e539b")
+		)
+		(pin "6"
+			(uuid "94be8071-4fde-43f6-9dc6-629924cea6c1")
+		)
+		(pin "7"
+			(uuid "3aec696b-8466-474e-893e-41d2141cf7b9")
+		)
+		(pin "2"
+			(uuid "1f7667d8-b04c-42f1-9b9d-7289f0a80597")
+		)
+		(pin "3"
+			(uuid "442078ef-529c-43cf-9334-74b1526f9616")
+		)
+		(pin "1"
+			(uuid "11ef2eef-e868-483e-aeaf-064dfb9f7dc0")
+		)
+		(pin "14"
+			(uuid "6d7ec9ef-90e4-49b7-82d4-854c3cb43954")
+		)
+		(pin "13"
+			(uuid "7d8bceab-a0f2-4e7d-a64e-8827edbd9547")
+		)
+		(pin "10"
+			(uuid "e2f3c451-b27b-4651-98a7-c4b7e289d346")
+		)
+		(pin "11"
+			(uuid "05882c88-2e3e-475a-99a6-f8376934333c")
+		)
+		(pin "12"
+			(uuid "3aa13151-6fae-4bca-8981-f2b441fbaa25")
+		)
+		(pin "8"
+			(uuid "10d83f89-490d-4952-9178-24e836bb44c5")
+		)
+		(pin "9"
+			(uuid "0929d35f-d09b-4d9f-acbe-72df672848b7")
+		)
+		(pin "4"
+			(uuid "2aade1b4-aa02-4609-8e0d-6f18731d7d6b")
+		)
+		(instances
+			(project "magnetometer_amp"
+				(path "/ad2bef85-0886-45b7-8eb6-634149eaa721"
+					(reference "U1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 45 92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ac9a9f7-5635-4dff-8b4c-6b7587aec848")
+		(property "Reference" "C1"
+			(at 47.54 90.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 47.54 93.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Magnetometer_Local:C1_Film_ECH_U1C104JX5"
+			(at 45 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/film-cap-electroequip/models/ECHU1C104JX5"
+			(at 45 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Tank cap, film or C0G"
+			(at 45 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c5f3f6ad-8e9c-4760-9c8e-b0bc34cfe1b2")
+		)
+		(pin "2"
+			(uuid "1d378df0-b2b4-4e67-8295-2caec946b8a5")
+		)
+		(instances
+			(project "magnetometer_amp"
+				(path "/ad2bef85-0886-45b7-8eb6-634149eaa721"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 45 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ECH-U1C104JX5"
+			(at 45 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "PPS film"
+			(at 45 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 215 92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac072592-2de1-4214-9851-24b500973e7e")
+		(property "Reference" "C5"
+			(at 217.54 90.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 217.54 93.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Magnetometer_Local:C5_Film_SMDIC04100TB00KQ00"
+			(at 215 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.wima.de/en/our-product-range/smd-capacitors/smd-pps/"
+			(at 215 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Coupling, film or C0G preferred"
+			(at 215 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9b67d4f2-6624-40b8-8411-626c947e0b62")
+		)
+		(pin "2"
+			(uuid "cc033687-fc36-4aff-85d6-1f33be04de16")
+		)
+		(instances
+			(project "magnetometer_amp"
+				(path "/ad2bef85-0886-45b7-8eb6-634149eaa721"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+		(property "Manufacturer" "WIMA"
+			(at 215 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SMDIC04100TB00KQ00"
+			(at 215 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "PPS film"
+			(at 215 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Magnetometer:TestPoint")
+		(at 260 135 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aca85ed4-3948-4299-8b3d-4b949c4ba16a")
+		(property "Reference" "TP11"
+			(at 262 133 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 262 135.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Magnetometer_Local:TP11_TestPoint_Loop_D2.50mm_Drill1.0mm"
+			(at 260 135 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260 135 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Test point"
+			(at 260 135 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2270383f-85b2-49a8-b85c-c3aeb3c0c4a8")
+		)
+		(instances
+			(project "magnetometer_amp"
+				(path "/ad2bef85-0886-45b7-8eb6-634149eaa721"
+					(reference "TP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 322 92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad55c873-b024-48cb-be71-d1a891496c75")
+		(property "Reference" "R12"
+			(at 324.54 90.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 324.54 93.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Magnetometer_Local:R12_R_0603_1608Metric"
+			(at 322 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 322 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 322 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2781ae8b-2314-4a1b-a4fa-d27b5d979cf3")
+		)
+		(pin "2"
+			(uuid "6d16b311-5da0-4dd1-b208-8e894919a583")
+		)
+		(instances
+			(project "magnetometer_amp"
+				(path "/ad2bef85-0886-45b7-8eb6-634149eaa721"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Magnetometer:TestPoint")
+		(at 40 135 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "baaecc09-83ef-475e-98bb-2ecdbac4a80b")
+		(property "Reference" "TP1"
+			(at 42 133 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TANK"
+			(at 42 135.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Magnetometer_Local:TP1_TestPoint_Loop_D2.50mm_Drill1.0mm"
+			(at 40 135 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40 135 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Test point"
+			(at 40 135 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "22d3bcbb-6461-4cce-928c-40d890d32a52")
+		)
+		(instances
+			(project "magnetometer_amp"
+				(path "/ad2bef85-0886-45b7-8eb6-634149eaa721"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 190 92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd09fe69-f380-49c9-be07-04a0bba5507d")
+		(property "Reference" "R11"
+			(at 192.54 90.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "68k"
+			(at 192.54 93.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Magnetometer_Local:R11_R_0603_1608Metric"
+			(at 190 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 190 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "23efc686-7fda-422f-a91d-90ec1494d197")
+		)
+		(pin "2"
+			(uuid "fbf6caa3-88ef-431c-9df1-7a3a138c043d")
+		)
+		(instances
+			(project "magnetometer_amp"
+				(path "/ad2bef85-0886-45b7-8eb6-634149eaa721"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Magnetometer:Conn_01x03")
+		(at 250 190 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd1c8418-ab0f-41c3-91e9-1ee2fd99a313")
+		(property "Reference" "J3"
+			(at 247 183 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TO_MCU (ADC_IN, GND, +3V3)"
+			(at 247 197 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Magnetometer_Local:J3_PinHeader_1x03_P2.54mm_Vertical"
+			(at 250 190 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250 190 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Pin header"
+			(at 250 190 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0b0416c7-6962-4822-80f3-b678e6e2530b")
+		)
+		(pin "2"
+			(uuid "7ed8c25b-43ce-49ef-8bf9-92eb65636e72")
+		)
+		(pin "3"
+			(uuid "74426a52-6385-45e1-992b-6ce552b384f1")
+		)
+		(instances
+			(project "magnetometer_amp"
+				(path "/ad2bef85-0886-45b7-8eb6-634149eaa721"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 263 92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1540ac8-52ee-47c1-b5d3-41fcd0ccc010")
+		(property "Reference" "C6"
+			(at 265.54 90.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100p"
+			(at 265.54 93.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Magnetometer_Local:C6_C_0603_1608Metric"
+			(at 263 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 263 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "C0G"
+			(at 263 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bc9e30dc-c3b8-44ac-93df-3683cc3dca5c")
+		)
+		(pin "2"
+			(uuid "591a5b3d-3c6f-4c78-94a7-ebbf3a47482a")
+		)
+		(instances
+			(project "magnetometer_amp"
+				(path "/ad2bef85-0886-45b7-8eb6-634149eaa721"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 134 185 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2e9d744-57e0-4236-91ee-5fe6bb27d0ed")
+		(property "Reference" "C12"
+			(at 136.54 183.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 136.54 186.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Magnetometer_Local:C12_C_1206_3216Metric"
+			(at 134 185 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134 185 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Bulk"
+			(at 134 185 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9cb0a077-d699-4a88-a0a0-b07c552901ad")
+		)
+		(pin "2"
+			(uuid "1a55269a-ddae-4637-afa6-b7aa52dc8db3")
+		)
+		(instances
+			(project "magnetometer_amp"
+				(path "/ad2bef85-0886-45b7-8eb6-634149eaa721"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Magnetometer:OPA4227")
+		(at 255 50 0)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cca4fc56-2d45-4931-a2dd-bab1c93a164c")
+		(property "Reference" "U1"
+			(at 252 43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "OPA4227PA"
+			(at 252 57.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Magnetometer_Local:U1_DIP-14_W7.62mm"
+			(at 255 50 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255 50 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Quad low-noise precision op amp, +/-5V"
+			(at 255 50 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "10"
+			(uuid "ae32b734-8129-4006-a34c-0016b0700beb")
+		)
+		(pin "9"
+			(uuid "7283af8a-94e8-4852-9cba-9b249f1a8e05")
+		)
+		(pin "8"
+			(uuid "12e80723-fd0d-47e2-9bcd-82f089f46a60")
+		)
+		(pin "12"
+			(uuid "32e675ad-a8b3-4d50-ad39-5de4d97e061f")
+		)
+		(pin "14"
+			(uuid "24f7f9b5-f24a-4b1c-a2fd-6b6e460c5210")
+		)
+		(pin "1"
+			(uuid "7baeecfc-ea55-44ed-8c54-fc51a67837bb")
+		)
+		(pin "4"
+			(uuid "471252f4-a811-4e6b-bfa1-67dc8650cf47")
+		)
+		(pin "2"
+			(uuid "bf994b9e-11e4-416f-92cb-fdbbcb125a9f")
+		)
+		(pin "11"
+			(uuid "39e59305-1285-4664-a500-cd3b8f42cb21")
+		)
+		(pin "5"
+			(uuid "f85636af-2aa1-48bd-93da-7d89cb550879")
+		)
+		(pin "3"
+			(uuid "186cd673-166d-469f-9d3a-3ff55c256e4e")
+		)
+		(pin "7"
+			(uuid "9c6715ff-2acb-42a1-8a47-148c1a84fa02")
+		)
+		(pin "6"
+			(uuid "4d4d9902-e41c-45ab-a9b8-835721c58323")
+		)
+		(pin "13"
+			(uuid "4a549ab0-48e6-4178-a4c4-2be377466915")
+		)
+		(instances
+			(project "magnetometer_amp"
+				(path "/ad2bef85-0886-45b7-8eb6-634149eaa721"
+					(reference "U1")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Magnetometer:TestPoint")
+		(at 238 135 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf71a8cb-3cf9-466e-aed2-28c95c36ee4e")
+		(property "Reference" "TP10"
+			(at 240 133 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 240 135.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Magnetometer_Local:TP10_TestPoint_Loop_D2.50mm_Drill1.0mm"
+			(at 238 135 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238 135 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Test point"
+			(at 238 135 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ae58c0d0-a5a0-404c-ba7f-2e1742bf1b1e")
+		)
+		(instances
+			(project "magnetometer_amp"
+				(path "/ad2bef85-0886-45b7-8eb6-634149eaa721"
+					(reference "TP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Magnetometer:TestPoint")
+		(at 84 135 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7d1ccce-760d-4645-9d05-0e1e71e769f7")
+		(property "Reference" "TP3"
+			(at 86 133 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "STAGE 2"
+			(at 86 135.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Magnetometer_Local:TP3_TestPoint_Loop_D2.50mm_Drill1.0mm"
+			(at 84 135 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 84 135 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Test point"
+			(at 84 135 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dbc9b78e-e337-423f-b401-8ce92093f7a5")
+		)
+		(instances
+			(project "magnetometer_amp"
+				(path "/ad2bef85-0886-45b7-8eb6-634149eaa721"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Magnetometer:TestPoint")
+		(at 62 135 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e01e75ed-31cf-49af-98f8-29fff20a9067")
+		(property "Reference" "TP2"
+			(at 64 133 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "STAGE 1"
+			(at 64 135.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Magnetometer_Local:TP2_TestPoint_Loop_D2.50mm_Drill1.0mm"
+			(at 62 135 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62 135 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Test point"
+			(at 62 135 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "582e253c-c71f-419f-a774-f575948be717")
+		)
+		(instances
+			(project "magnetometer_amp"
+				(path "/ad2bef85-0886-45b7-8eb6-634149eaa721"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 130 92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e17fb392-3b1d-434e-b3a2-531fb22097fb")
+		(property "Reference" "C2"
+			(at 132.54 90.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 132.54 93.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Magnetometer_Local:C2_Film_SMDIC04100TB00KQ00"
+			(at 130 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.wima.de/en/our-product-range/smd-capacitors/smd-pps/"
+			(at 130 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Coupling, film or C0G preferred"
+			(at 130 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9e6a610e-014d-4107-91ee-4edd47b614a5")
+		)
+		(pin "2"
+			(uuid "fc40e8c3-08db-4fe1-825d-1a14a32657fc")
+		)
+		(instances
+			(project "magnetometer_amp"
+				(path "/ad2bef85-0886-45b7-8eb6-634149eaa721"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+		(property "Manufacturer" "WIMA"
+			(at 130 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SMDIC04100TB00KQ00"
+			(at 130 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "PPS film"
+			(at 130 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 122 185 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea9aaff3-9c3a-4766-a673-86cca8de7041")
+		(property "Reference" "C11"
+			(at 124.54 183.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 124.54 186.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Magnetometer_Local:C11_C_0603_1608Metric"
+			(at 122 185 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 122 185 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Decoupling at U1 pin 11"
+			(at 122 185 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ae5062a9-5205-49ff-8685-e9ec4a6a8d04")
+		)
+		(pin "2"
+			(uuid "7546a08a-1487-405a-9541-23a0135a3e49")
+		)
+		(instances
+			(project "magnetometer_amp"
+				(path "/ad2bef85-0886-45b7-8eb6-634149eaa721"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 107 92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ede79748-a7f9-402a-89a3-61c68e2df3d2")
+		(property "Reference" "R3"
+			(at 109.54 90.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 109.54 93.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Magnetometer_Local:R3_R_0603_1608Metric"
+			(at 107 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Gain set, 0.1%"
+			(at 107 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "23fa0b7d-b4d4-411e-aafd-344a12f3a081")
+		)
+		(pin "2"
+			(uuid "b2323a2f-366c-4577-b02e-87143a246475")
+		)
+		(instances
+			(project "magnetometer_amp"
+				(path "/ad2bef85-0886-45b7-8eb6-634149eaa721"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Magnetometer:TestPoint")
+		(at 106 135 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2160b1d-8210-4756-9451-d23e274196f4")
+		(property "Reference" "TP4"
+			(at 108 133 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "STAGE 3"
+			(at 108 135.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Magnetometer_Local:TP4_TestPoint_Loop_D2.50mm_Drill1.0mm"
+			(at 106 135 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106 135 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Test point"
+			(at 106 135 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "671449d4-fcc4-407f-a0ae-4d1f957bee5f")
+		)
+		(instances
+			(project "magnetometer_amp"
+				(path "/ad2bef85-0886-45b7-8eb6-634149eaa721"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 69 92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "f2ca94db-4908-4c3d-a59c-8e95c32e624b")
+		(property "Reference" "C21"
+			(at 71.54 90.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1n-10n trim"
+			(at 71.54 93.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Magnetometer_Local:C21_C_0805_2012Metric"
+			(at 69 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Optional tuning cap, C0G, fit after measuring coil"
+			(at 69 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "260ac699-c3a0-415b-b559-df8da531fd39")
+		)
+		(pin "2"
+			(uuid "e983f6a4-d2b8-4f3a-b8a3-18829d370565")
+		)
+		(instances
+			(project "magnetometer_amp"
+				(path "/ad2bef85-0886-45b7-8eb6-634149eaa721"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 57 92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f67eb642-7349-4e33-8f96-b925dc7d3632")
+		(property "Reference" "C20"
+			(at 59.54 90.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47n"
+			(at 59.54 93.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Magnetometer_Local:C20_Film_ECH_U1H473JX9"
+			(at 57 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/film-cap-electroequip/models/ECHU1H473JX9"
+			(at 57 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Tank cap, film or C0G (total 147 nF)"
+			(at 57 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7d202a66-225e-4c08-9cf0-ecbf8fd2bb2c")
+		)
+		(pin "2"
+			(uuid "1628b64d-99be-4681-a245-9a7bb42d67d0")
+		)
+		(instances
+			(project "magnetometer_amp"
+				(path "/ad2bef85-0886-45b7-8eb6-634149eaa721"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 57 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ECH-U1H473JX9"
+			(at 57 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "PPS film"
+			(at 57 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 154 92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6bef3db-f90f-458d-9add-fa0eef22aa87")
+		(property "Reference" "R4"
+			(at 156.54 90.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "820"
+			(at 156.54 93.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Magnetometer_Local:R4_R_0603_1608Metric"
+			(at 154 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 154 92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8e8b6d1c-830b-4719-ba5b-c5453ec3bc27")
+		)
+		(pin "2"
+			(uuid "c64aec35-1bb2-439e-94dd-81da9a4b5641")
+		)
+		(instances
+			(project "magnetometer_amp"
+				(path "/ad2bef85-0886-45b7-8eb6-634149eaa721"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 146 185 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6f76fc2-12e7-457c-aac8-719c8cea4ab8")
+		(property "Reference" "C13"
+			(at 148.54 183.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 148.54 186.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Magnetometer_Local:C13_C_1206_3216Metric"
+			(at 146 185 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146 185 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Bulk"
+			(at 146 185 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1e70300f-fda1-4b8b-b10e-1e6ebb405333")
+		)
+		(pin "2"
+			(uuid "d40fe0fd-00ae-4c9a-8947-777920a568b8")
+		)
+		(instances
+			(project "magnetometer_amp"
+				(path "/ad2bef85-0886-45b7-8eb6-634149eaa721"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Magnetometer:TestPoint")
+		(at 172 135 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f978896c-132c-4d30-8756-5b56f0714a34")
+		(property "Reference" "TP7"
+			(at 174 133 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "+5V"
+			(at 174 135.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Magnetometer_Local:TP7_TestPoint_Loop_D2.50mm_Drill1.0mm"
+			(at 172 135 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172 135 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Test point"
+			(at 172 135 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c54be817-3508-45b2-960c-39106cbf1d62")
+		)
+		(instances
+			(project "magnetometer_amp"
+				(path "/ad2bef85-0886-45b7-8eb6-634149eaa721"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
