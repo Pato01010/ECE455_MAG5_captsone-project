@@ -29,16 +29,16 @@ The method is attractive because the measurement comes from a physical constant,
                                                                     Logged survey data
 ```
 
-| Subsystem | Role |
-|---|---|
-| **Polarization driver** | Switches high current into the coil, then shuts it off fast and cleanly |
-| **Sensor coil** | Polarizes the fluid, then picks up the precession signal |
-| **Blanking + preamp** | Shields the sensitive front end during turn-off, then amplifies the weak signal with as little added noise as possible |
-| **Signal conditioning** | Band-pass filtering and gain centered on the expected precession frequency |
-| **Frequency measurement** | MCU-based period counting for precise frequency estimates over a short, decaying signal |
-| **GPS integration** | Position and timing for every reading |
-| **Isolation** | Keeps switching noise and ground currents from the power side out of the analog chain |
-| **Towfish housing** | Waterproof, non-magnetic enclosure that keeps the sensor stable and away from the boat's own magnetic signature |
+| Subsystem                       | Role                                                                                                                   |
+| ------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| **Polarization driver**   | Switches high current into the coil, then shuts it off fast and cleanly                                                |
+| **Sensor coil**           | Polarizes the fluid, then picks up the precession signal                                                               |
+| **Blanking + preamp**     | Shields the sensitive front end during turn-off, then amplifies the weak signal with as little added noise as possible |
+| **Signal conditioning**   | Band-pass filtering and gain centered on the expected precession frequency                                             |
+| **Frequency measurement** | MCU-based period counting for precise frequency estimates over a short, decaying signal                                |
+| **GPS integration**       | Position and timing for every reading                                                                                  |
+| **Isolation**             | Keeps switching noise and ground currents from the power side out of the analog chain                                  |
+| **Towfish housing**       | Waterproof, non-magnetic enclosure that keeps the sensor stable and away from the boat's own magnetic signature        |
 
 ## Our approach
 
